@@ -9,7 +9,7 @@ install(FILES License.txt DESTINATION . COMPONENT Legal )
 install(FILES License.txt DESTINATION . COMPONENT License )
 
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
-
+set(CPACK_PACKAGE_VENDOR "Iosif")
 set(CPACK_NSIS_MENU_LINKS "License.txt" "License")
 
 set( CPACK_PROJECT_CONFIG_FILE "${CMAKE_CURRENT_SOURCE_DIR}/CMakeCPackOptions.cmake" )
